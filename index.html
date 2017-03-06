@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+
+</head>
+<body>
+<div class="home_layout">
+    <!--页面头部-->
+    <div class="header" id="007">
+        <div class="header-img">
+            <img class="logo" src="images/header_logo.png" alt="">
+            <img class="app" src="images/header_app.png" alt="">
+        </div>
+    </div>
+    <!--搜索框-->
+    <div class="ssk">
+        <div class='ssk-box'>
+            <input type="text" class="ssk-text" placeholder="请输入你想比价的商品">
+            <input type="button" value="搜索" class="ssk-btn">
+        </div>
+    </div>
+    <!--菜单栏-->
+    <div class="menu">
+        <ul class="clearfix info"></ul>
+    </div>
+    <!--折扣栏-->
+    <div class="discount">
+        <a href="" class="test">超值折扣推荐</a>
+        <img class="fr" src="images/more.png" alt="">
+    </div>
+    <!--商品栏-->
+    <div class='good clearfix'></div>
+
+
+    <!--底部优惠-->
+    <div class="yh">
+        <div class="ybox">
+            <a class="wz">更多优惠信息>></a>
+        </div>
+    </div>
+    <!--品牌排行-->
+    <div class="footer">
+        <div class="banner">
+            <div class="fl pp">品牌排行</div>
+            <div class="fr img">
+                <img src="images/more.png" alt="">
+            </div>
+        </div>
+        <div class="register">
+            <div class="null"></div>
+            <div class="box">
+                <a class="dl fl">登陆</a>
+                <a class="zc fl">注册</a>
+                <div  class="return fl" >
+                    <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+                    <a href="#007">返回顶部</a></div>
+            </div>
+        </div>
+        <div class="db">
+            <span class="phone">手机app下载</span>
+            <span class="man">慢慢买手机版</span>
+            <span class="pk"> -- 掌上比价平台</span>
+            <p>m.manmanbuy.com</p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="lib/jquery/jquery.js"></script>
+<script src="js/index.js"></script>
+<script src="lib/template.js"></script>
+<!--<script src="lib/bootstrap/js/bootstrap.js"></script>-->
+
+<script type="text/html" id="one">
+    {{if result}}
+        {{each result as value i}}
+           <li>
+               <a href="{{value.titlehref}}">
+                   {{#value.img}}
+                   <p>{{value.name}}</p>
+               </a>
+           </li>
+        {{/each}}
+    {{/if}}
+</script>
+<script type="text/html" id="two">
+    {{if result}}
+        {{each result as value}}
+            <div class="goods clearfix">
+                <div class="left">
+                    {{#value.productImgSm}}
+                </div>
+                <div class="right">
+                    <a class="txt" href="#">{{value.productName}}</a>
+                    <span class="num">{{value.productPinkage}}</span>
+                    <p>{{value.productFrom}} | {{value.productTime}}</p>
+                </div>
+            </div>
+        {{/each}}
+    {{/if}}
+</script>
+</html>

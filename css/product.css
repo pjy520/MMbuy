@@ -1,0 +1,157 @@
+@media only screen and (max-width: 1080px), only screen and (max-device-width:1080px) {
+    html,body {
+        font-size:27px;
+    }
+}
+@media only screen and (max-width: 960px), only screen and (max-device-width:960px) {
+    html,body {
+        font-size:24px;
+    }
+}
+@media only screen and (max-width: 800px), only screen and (max-device-width:800px) {
+    html,body {
+        font-size:20px;
+    }
+}
+@media only screen and (max-width: 720px), only screen and (max-device-width:720px) {
+    html,body {
+        font-size:18px;
+    }
+}
+@media only screen and (max-width: 640px), only screen and (max-device-width:640px) {
+    html,body {
+        font-size:16px;
+    }
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width:600px) {
+    html,body {
+        font-size:15px;
+    }
+}
+@media only screen and (max-width: 540px), only screen and (max-device-width:540px) {
+    html,body {
+        font-size:13.5px;
+    }
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width:480px) {
+    html,body {
+        font-size:12px;
+    }
+}
+@media only screen and (max-width: 414px), only screen and (max-device-width:414px) {
+    html,body {
+        font-size:10.35px;
+    }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width:400px) {
+    html,body {
+        font-size:10px;
+    }
+}
+@media only screen and (max-width: 375px), only screen and (max-device-width:375px) {
+    html,body {
+        font-size:9.375px;
+    }
+}
+@media only screen and (max-width: 360px), only screen and (max-device-width:360px) {
+    html,body {
+        font-size:9px;
+    }
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width:320px) {
+    html,body {
+        font-size:8px;
+    }
+}
+@media only screen and (max-width: 240px), only screen and (max-device-width:240px) {
+    html,body {
+        font-size:6px;
+    }
+}
+.catalogue{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #f4f4f4;
+}
+.catalogue .change input{
+    height: 1.75rem;
+    width: 3.125rem;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.catalogue .home{
+    height: 100%;
+    line-height: 2.5rem;
+    margin-left:0.3125rem;
+}
+.product{
+    margin-top: 0.625rem;
+}
+.product .box{
+    width: 100%;
+    height: 7.5rem;
+    border-bottom:1px solid lightgray;
+}
+.product img{
+    width: 6.875rem;
+    height: 5.625rem;
+    margin-left:0.625rem;
+    margin-right: 0.625rem;
+    margin-top: 0.625rem;
+}
+.product .box .test .title{
+    font-size: 1rem;
+    margin-right: 0.3125rem;
+}
+.product .box .test .price{
+    color: #ffa207;
+    margin-top: 0.625rem;
+    font-size: 1.125rem;
+}
+.product .box .test .small{
+    font-size: 0.875rem;
+    margin-top: 0.9375rem;
+}
+
+.product .box .test .small .a{
+    margin-right: 0.5rem;
+}
+.select{
+    width: 100%;
+    height: 3.75rem;
+    text-align: center;
+}
+.select .up{
+    height: 100%;
+    width: 33.333%;
+    margin-top: 1.375rem;
+}
+.select .up button{
+    width: 4.375rem;
+    height: 2.25rem;
+}
+
+.select .middle{
+    height: 100%;
+    width: 33.333%;
+    margin-top: 1.375rem;
+}
+.select .middle select{
+    height: 2.1875rem;
+    width: 4.375rem;
+    /*text-align: center;*/
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.select .down{
+    height: 100%;
+    width: 33.333%;
+    margin-top: 1.375rem;
+}
+
+.select .down button{
+    height: 2.1875rem;
+    width: 4.375rem;
+}

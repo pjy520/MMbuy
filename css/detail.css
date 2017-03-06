@@ -1,0 +1,163 @@
+
+
+.footer .register .null{
+    background-color: #fff;
+    height: 2.875rem;
+}
+
+.catalogue{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #f4f4f4;
+}
+.catalogue .change input{
+    height: 1.75rem;
+    width: 3.125rem;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.catalogue .home{
+    height: 100%;
+    line-height: 2.5rem;
+    margin-left:0.3125rem;
+}
+.box1{
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+}
+.box1 .test{
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.box1 .img{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.box1 .img img{
+    width: 255px;
+    height: 230px;
+}
+
+.pk1{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border-top:1px solid #ff7b06;
+    border-bottom:1px solid #ff7b06;
+}
+.pk1 a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 40px;
+    color: #fff;
+    font-size: 18px;
+}
+.one{
+    background-color: #ff970a;
+    height: 100%;
+    width: 33.3333333333333333333333333%;
+}
+.two{
+    background-color: #ffe212;
+    height: 100%;
+    width: 33.33333333333333333333333%;
+    border-left:1px solid #ff7b06;
+    border-right:1px solid #ff7b06;
+}
+.three{
+    height: 100%;
+    width: 33.3333333333333333333333333%;
+    background-color: #ffe212;
+}
+
+/*.jd{*/
+    /*width: 100%;*/
+    /*height: 60px;*/
+/*}*/
+.character{
+    color: dimgray;
+    font-size: 14px;
+    /*line-height:60px ;*/
+    width: 100%;
+    height: 54px;
+    margin-top: 6px;
+}
+.appraise{
+    font-size: 16px;
+    text-align: center;
+    background-color: #a4a4a4;
+    height: 40px;
+    line-height: 40px;
+}
+
+.more{
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+.jd tr .red{
+    float: right;
+    font-size: 18px;
+    color: #ff2305;
+}
+.jd tr span{
+    float: right;
+    margin-left: 16px;
+}
+
+.jd td a{
+    font-size: 18px;
+    float: left;
+}
+.jd{
+    margin-top: 10px;
+    border-bottom:1px solid lightgray;
+}
+.jd table{
+    margin-bottom:5px;
+}
+.content{
+    margin-top: 10px;
+    border-bottom:1px solid darkgray;
+    padding-bottom: 8px;
+}
+.content .name{
+    float: left;
+    margin-left: 8px;
+}
+.combine{
+    float: right;
+    margin-right: 8px;
+}
+.big_box{
+    margin-bottom: 10px;
+}
+
+.combine .date{
+    text-align: right;
+}
+.combine .buy{
+    text-align: right;
+}
+
+.content .user_evaluation{
+    font-size: 14px;
+    margin: 0 8px;
+    color: #000;
+}
+.big-content{
+    margin-bottom: 16px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/baicaijia.css">
+</head>
+<body>
+<div class="home_layout">
+    <!--头部-->
+    <div class="Save_title">
+        <a class="arrows" href="index.html">
+            <img src="images/arrow11.png" alt="">
+        </a>
+        <div class="headline">
+            白菜价-淘宝内部劵
+        </div>
+        <div class="save_app">
+            <img src="images/header_app.png" alt="">
+        </div>
+    </div>
+    <!--标题栏-->
+    <div class="title">
+        <ul class="clearfix" id="ul">
+            <!--<li><a href="#">答案是</a></li>-->
+            <!--<li><a href="#">答案是</a></li>-->
+            <!--<li><a href="#">答案是</a></li>-->
+            <!--<li><a href="#">答案是</a></li>-->
+        </ul>
+    </div>
+    <!--商品列表-->
+    <div class="product">
+
+    </div>
+
+
+    <!--底部-->
+    <div class="footer">
+        <div class="register">
+            <div class="null"></div>
+            <div class="box">
+                <a class="dl fl">登陆</a>
+                <a class="zc fl">注册</a>
+                <a class="return fl" href="#007">返回顶部</a>
+            </div>
+        </div>
+        <div class="db">
+            <span class="phone">手机app下载</span>
+            <span class="man">慢慢买手机版</span>
+            <span class="pk"> -- 掌上比价平台</span>
+            <p>m.manmanbuy.com</p>
+        </div>
+    </div>
+    <!--箭头-->
+    <div class="arrow">
+        <img src="images/arrowup.png" alt="">
+    </div>
+
+
+
+</div>
+</body>
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/template.js"></script>
+<script src="js/common.js"></script>
+<!--<script src="js/swipe.js"></script>-->
+<script src="js/baicaijia.js"></script>
+<script type="text/html" id="title">
+    {{if result}}
+        {{each result as value i}}
+                <li><a href="#" id="{{value.titleId}}">{{value.title}}</a></li>
+        {{/each}}
+    {{/if}}
+</script>
+<script type="text/html" id="product">
+    {{each result as value i}}
+        <div class="case">
+            <div class="img fl">{{#value.productImg}}</div>
+            <div class="text">
+                <div class="productName">{{#value.productName}}</div>
+                <div class="productPrice">{{#value.productPrice}}</div>
+                <div class="productCouponRemain">{{#value.productCouponRemain}}</div>
+                <div class="box">
+                    <div class="productCoupon fl">{{#value.productCoupon}}</div>
+                    <div class="productHref fr">{{#value.productHref}}</div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</script>
+
+
+
+</html>

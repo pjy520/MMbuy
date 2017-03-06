@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/coupon.css">
+</head>
+<body>
+<div class="home_layout">
+    <!--头部-->
+    <div class="Save_title">
+        <a class="arrows" href="index.html">
+            <img src="images/arrow11.png" alt="">
+        </a>
+        <div class="headline">
+            优惠券
+        </div>
+        <div class="save_app">
+            <img src="images/header_app.png" alt="">
+        </div>
+    </div>
+    <!--优惠券-->
+    <div class="product clearfix"></div>
+
+
+    <!--底部-->
+    <div class="footer">
+        <div class="register">
+            <div class="null"></div>
+            <div class="box">
+                <a class="dl fl">登陆</a>
+                <a class="zc fl">注册</a>
+                <a class="return fl" href="#007">返回顶部</a>
+            </div>
+        </div>
+        <div class="db">
+            <span class="phone">手机app下载</span>
+            <span class="man">慢慢买手机版</span>
+            <span class="pk"> -- 掌上比价平台</span>
+            <p>m.manmanbuy.com</p>
+        </div>
+    </div>
+</div>
+</body>
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/template.js"></script>
+<script src="js/coupon.js"></script>
+<script type="text/html" id='product'>
+    {{each result as value i}}
+        <div class="img fl">
+            <a href="{{value.couponLink}}?{{value.couponId}}">
+                <img src="{{#value.couponImg}}" alt="">
+                <div>{{value.couponTitle}}</div>
+            </a>
+        </div>
+    {{/each}}
+</script>
+</html>

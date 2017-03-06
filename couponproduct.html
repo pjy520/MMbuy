@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/couponproduct.css">
+</head>
+<body>
+<div class="home_layout">
+    <!--头部-->
+    <div class="Save_title">
+        <a class="arrows" href="index.html">
+            <img src="images/arrow11.png" alt="">
+        </a>
+        <div class="headline">
+            <span></span> 优惠券
+        </div>
+        <div class="save_app">
+            <img src="images/header_app.png" alt="">
+        </div>
+    </div>
+    <!--title-->
+    <div class="title">
+        --点餐前出示手机中的优惠券，即可享受优惠
+    </div>
+    <!--商品-->
+    <div class="product">
+        <!--<div class="img fl"></div>-->
+        <!--<div class="couponProductName"></div>-->
+        <!--<div class="couponProductPrice"></div>-->
+        <!--<div class="couponProductTime"></div>-->
+    </div>
+
+    <div class="win">
+        <div class="left fl">
+            <img src="images/arrow1.png" alt="">
+        </div>
+        <div class="boxes">
+            <div class="pic">
+                <ul>
+                    <!--<li>-->
+                        <!--&lt;!&ndash;<img src="images/haitao.png" alt="">&ndash;&gt;-->
+                    <!--</li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="right fr">
+            <img src="images/arrow2.png" alt="">
+        </div>
+    </div>
+</div>
+</body>
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/template.js"></script>
+<script src="js/couponproduct.js"></script>
+<script type="text/html" id="product">
+    {{each result as value i}}
+        <div class="case">
+            <div class="img fl">{{#value.couponProductImg}}</div>
+            <div class="box">
+                <div class="couponProductName">{{value.couponProductName}}</div>
+                <div class="couponProductPrice">{{value.couponProductPrice}}</div>
+                <div class="couponProductTime">{{value.couponProductTime}}</div>
+            </div>
+        </div>
+    {{/each}}
+</script>
+<script type="text/html" id="boxes">
+    {{each result as value i}}
+        <li class="fl">
+            {{#value.couponProductImg}}
+        </li>
+    {{/each}}
+</script>
+</html>

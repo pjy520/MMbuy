@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/gsproduct.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <div class="home_layout">
+        <!--头部-->
+        <div class="Save_title">
+            <a class="arrows" href="index.html">
+                <img src="images/arrow11.png" alt="">
+            </a>
+            <div class="headline">
+                <span></span> 凑单品
+            </div>
+            <div class="save_app">
+                <img src="images/header_app.png" alt="">
+            </div>
+        </div>
+
+        <!--导航部分-->
+        <div class="title">
+            <div class="box">
+                <a class="store fl">京东 <span>▲</span></a>
+                <a class="district fl">华北 <span>▲</span></a>
+                <a class="price fl">全部价格 <span>▲</span></a>
+                <a class="img fr">
+                    <img src="images/search.png" alt="">
+                </a>
+            </div>
+            <div class="one">
+                <ul id="a" class="dis"></ul>
+            </div>
+        </div>
+
+        <!--产品-->
+        <div class="product">
+
+        </div>
+
+    </div>
+</body>
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/gsproduct.js"></script>
+<script src="lib/template.js"></script>
+<script type="text/html" id="one">
+    {{each result as value i}}
+        <li id="{{value.shopId}}">{{value.shopName}}</li>
+    {{/each}}
+</script>
+<script type="text/html" id="two">
+    {{each result as value i}}
+        <li id="{{value.areaId}}">{{value.areaName}}</li>
+    {{/each}}
+</script>
+
+
+<script type="text/html" id="product">
+    {{each result as value i}}
+        <div class="box fl">
+            <div class="productImg">
+                <img src="{{value.productImg}}" alt="">
+            </div>
+            <div class="productName">
+                {{value.productName}}
+            </div>
+            <div class="case">
+                <div class="productPrice fl">
+                    {{value.productPrice}}
+                </div>
+                <div class="go fr">
+                    去凑单
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</script>
+</html>

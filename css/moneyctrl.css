@@ -1,0 +1,82 @@
+.good{
+    width: 100%;
+}
+.goods{
+    margin-top: 0.625rem;
+    width: 100%;
+    height: 7.25rem;
+    border-bottom:1px solid darkgray;
+}
+.goods .left img{
+    width: 5.625rem;
+    float: left;
+    height: 6.25rem;
+}
+.goods .right{
+    overflow: hidden;
+    padding-left:0.9375rem;
+}
+
+.goods .right .txt{
+    font-size:1rem;
+    font-family: "Microsoft YaHei";
+    color: #000;
+
+}
+.goods .right .num{
+    font-size:1rem;
+    font-family: "Microsoft YaHei";
+    color: #FF841D;
+}
+.goods .right p{
+    margin-top: 1.375rem;
+    color: gray;
+    /*display: inline-block;*/
+}
+.goods .right p i{
+    width: 0.9375rem;
+    height: 0.9375rem;
+    border: 1px solid gray;
+    text-align: center;
+    line-height:0.5rem;
+    margin-right:0.1875rem;
+}
+
+.select{
+    width: 100%;
+    height: 3.75rem;
+    text-align: center;
+}
+.select .up{
+    height: 100%;
+    width: 33.333%;
+    margin-top: 1.375rem;
+}
+.select .up button{
+    width: 4.375rem;
+    height: 2.25rem;
+}
+
+.select .middle{
+    height: 100%;
+    width: 33.333%;
+    margin-top: 1.375rem;
+}
+.select .middle select{
+    height: 2.1875rem;
+    width: 6.375rem;
+    /*text-align: center;*/
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.select .down{
+    height: 100%;
+    width: 33.333%;
+    margin-top: 1.375rem;
+}
+
+.select .down button{
+    height: 2.1875rem;
+    width: 4.375rem;
+}

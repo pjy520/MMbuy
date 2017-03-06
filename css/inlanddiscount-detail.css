@@ -1,0 +1,104 @@
+.d_header{
+    width: 100%;
+}
+.d_header .title{
+    font-size: 20px;
+    margin-top: 14px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.d_header .small{
+    color: gray;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.d_header .small .date{
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.content{
+    width: 100%;
+}
+.content .img{
+    float: right;
+}
+.content .img img{
+
+    height: 120px;
+    width: 120px;
+}
+.content .text{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #222222;
+    margin-left: 10px;
+}
+.big_img{
+    text-align: center;
+}
+.city{
+    text-align: center;
+}
+.city ul{
+    width: 32%;
+    margin: 0 auto;
+    font-size: 14px;
+
+}
+.city ul li span{
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.city ul li{
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px dashed lightgray;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+
+}
+.city ul li a{
+    /*margin-bottom: 10px;*/
+    height: 100%;
+    width: 100%;
+}
+.city ul li a span{
+    /*text-align: left;*/
+    width: 78%;
+    display: inline-block;
+    height: 100%;
+}
+
+.city ul li a span strong{
+    float: right;
+    color: #ff6d07;
+}
+
+.goBuy{
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #ff5c02;
+    height: 40px;
+    width: 90%;
+    margin:0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.boxbox{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.boxbox img{
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+.iBox{
+    display: inline-block;
+    width: 49%;
+    height: 310px;
+}
+
+.iBox .i_product .img{
+    margin-top: 10px;
+    margin-left:10px;
+}
+.iBox .i_product .img img{
+    height: 120px;
+    width: 120px;
+}
+.iBox .title{
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 10px;
+
+}
+.iBox .price{
+    font-size: 14px;
+    color: #ff6d07;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.iBox .buttom{
+    margin-top: 8px;
+    color: darkgray;
+    margin-left: 10px;
+}
+
+
+
+
+
+

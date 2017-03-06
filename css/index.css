@@ -1,0 +1,343 @@
+@media only screen and (max-width: 1080px), only screen and (max-device-width:1080px) {
+    html,body {
+        font-size:27px;
+    }
+}
+@media only screen and (max-width: 960px), only screen and (max-device-width:960px) {
+    html,body {
+        font-size:24px;
+    }
+}
+@media only screen and (max-width: 800px), only screen and (max-device-width:800px) {
+    html,body {
+        font-size:20px;
+    }
+}
+@media only screen and (max-width: 720px), only screen and (max-device-width:720px) {
+    html,body {
+        font-size:18px;
+    }
+}
+@media only screen and (max-width: 640px), only screen and (max-device-width:640px) {
+    html,body {
+        font-size:16px;
+    }
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width:600px) {
+    html,body {
+        font-size:15px;
+    }
+}
+@media only screen and (max-width: 540px), only screen and (max-device-width:540px) {
+    html,body {
+        font-size:13.5px;
+    }
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width:480px) {
+    html,body {
+        font-size:12px;
+    }
+}
+@media only screen and (max-width: 414px), only screen and (max-device-width:414px) {
+    html,body {
+        font-size:10.35px;
+    }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width:400px) {
+    html,body {
+        font-size:10px;
+    }
+}
+@media only screen and (max-width: 375px), only screen and (max-device-width:375px) {
+    html,body {
+        font-size:9.375px;
+    }
+}
+@media only screen and (max-width: 360px), only screen and (max-device-width:360px) {
+    html,body {
+        font-size:9px;
+    }
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width:320px) {
+    html,body {
+        font-size:8px;
+    }
+}
+@media only screen and (max-width: 240px), only screen and (max-device-width:240px) {
+    html,body {
+        font-size:6px;
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 0.75rem;
+    color: #333;
+    font-family: "MicroSoft YaHei", "sans-serif";
+}
+input, textarea {
+    border: none;
+    outline: none;
+    resize: none;
+
+    -webkit-appearance: none;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+
+
+.clearfix::after,
+.clearfix::before {
+    content: ".";
+    line-height: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+ul, ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.home_layout{
+    min-width: 18.75rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    /*padding-top: 0.3125rem;*/
+    width: 100%;
+    height: 3.125rem;
+    background-color: #FF841D;
+    /*background: url("../images/header_logo.png") no-repeat;*/
+}
+.header-img .logo{
+    margin-top: 0.6875rem;
+    width: 11.625rem;
+    height: 1.5625rem;
+    margin-left: 0.375rem;
+}
+.header-img .app{
+    float: right;
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-top: 0.4375rem;
+    margin-right: 0.3125rem;
+}
+.ssk{
+    width: 100%;
+    height: 3.125rem;
+}
+.ssk .ssk-text{
+    width: 16.25rem;
+    height: 1.5625rem;
+    border-radius: 10px;
+
+
+}
+.ssk .ssk-btn{
+    color: #fff;
+    height: 1.875rem;
+    width: 4.375rem;
+    border-radius: 10px;
+    background: #FF841D;
+    border: none;
+}
+.ssk .ssk-box{
+    text-align: center;
+    padding-top: 0.3125rem;
+}
+.ssk .ssk-box .ssk-text{
+    background-color: #ebebeb;
+    padding-left: 0.9375rem;
+}
+
+
+.menu{
+    width: 100%;
+}
+.menu ul li{
+    float: left;
+    width: 25%;
+}
+.menu ul li a{
+    width: 100%;
+    display: block;
+}
+.menu ul li a img{
+    width: 3.125rem;
+    height: 3.125rem;
+    display: block;
+    margin: 0 auto;
+}
+.menu ul li a p{
+    font-size: 0.75rem;
+    text-align: center;
+    color: #666;
+    padding: 0.375rem 0;
+    /*display: inline-block;*/
+}
+.menu{
+    margin-top:0.625rem;
+}
+
+.discount{
+    height: 2.875rem;
+    width: 100%;
+    background: #FF841D;
+    padding-top: 0.625rem;
+}
+.discount .test{
+    color: #fff;
+    margin-left:0.4375rem;
+}
+.discount img{
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right:0.3125rem;
+}
+.good{
+    width: 100%;
+}
+.goods{
+    margin-top: 0.625rem;
+    width: 100%;
+    height: 7.25rem;
+    border-bottom:1px solid darkgray;
+}
+.goods .left img{
+    width: 5.625rem;
+    float: left;
+    height: 6.25rem;
+}
+.goods .right{
+    overflow: hidden;
+    padding-left:0.9375rem;
+}
+
+.goods .right .txt{
+    font-size:1rem;
+    font-family: "Microsoft YaHei";
+    color: #000;
+
+}
+.goods .right .num{
+    font-size:1rem;
+    font-family: "Microsoft YaHei";
+    color: #FF841D;
+}
+.goods .right p{
+    margin-top: 1.375rem;
+    color: gray;
+    /*display: inline-block;*/
+}
+.goods .right p i{
+    width: 0.9375rem;
+    height: 0.9375rem;
+    border: 1px solid gray;
+    text-align: center;
+    line-height:0.5rem;
+    margin-right:0.1875rem;
+}
+.yh{
+    width: 100%;
+    height: 2.75rem;
+    padding-top: 0px;
+}
+.yh .ybox{
+    height: 2.125rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid darkgray;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    background-color: #ececec;
+}
+.yh .ybox .wz{
+    line-height: 2.125rem;
+}
+.footer{
+    width: 100%;
+}
+.footer .banner{
+    width: 100%;
+    height: 2.1875rem;
+    background-color: #FF841D;
+
+}
+.footer .banner .pp{
+    font-size: 0.875rem;
+    color: #ffffff;
+    line-height:2.1875rem;
+    margin-left:0.625rem;
+}
+.footer .banner .img img{
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-top: 0.3125rem;
+}
+.register{
+    background-color: #e3e3e3;
+}
+.register .null{
+    width: 100%;
+    height: 1.875rem;
+}
+.register .box{
+    height: 2.5rem;
+    width: 100%;
+    border-top: 1px solid darkgray;
+    border-bottom:1px solid darkgray;
+
+}
+.register .box .dl{
+    width: 30%;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.register .box .zc{
+    width: 29%;
+    line-height: 2.5rem;
+    text-align: center;
+    border-left:1px solid darkgray;
+}
+
+.register .box .return{
+    width: 40%;
+    line-height: 2.5rem;
+    text-align: center;
+    border-left:1px solid darkgray;
+    color:#000000;
+
+}
+.footer .db{
+    height: 5.5rem;
+    text-align: center;
+    padding-top: 1.25rem;
+    background-color: #e3e3e3;
+}
+.footer .db .phone{
+    color: red;
+}
+.footer .db .pk{
+    color:gray;
+}
